@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deporte en Acción</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <header>
+    <h1>🏅 Deporte en Acción</h1>
+    <p>Las últimas noticias y resultados deportivos</p>
+  </header>
+
+  
+  <nav class="navbar">
+    <div class="logo">🏆 Menú</div>
+    <button class="hamburger" id="hamburger">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Noticias</a></li>
+      <li><a href="#">Deportes</a></li>
+      <li><a href="#">Calendario</a></li>
+      <li><a href="#">Foro</a></li>
+      <li><a href="#">Multimedia</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    
+
+    <section class="seccion noticias">
+      <h2>📰 Noticias Recientes</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://www.shutterstock.com/image-photo/barcelona-vs-real-madrid-3d-260nw-2617044757.jpg" alt="Fútbol">
+          <h3>Real Madrid 3-1 Barcelona</h3>
+          <p>Un clásico lleno de goles y emociones.</p>
+        </article>
+        <article class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3cZACDwxAaY_ztma0k7fTeJKMcqqpvPc-A&s" alt="NBA">
+          <h3>Lakers vencen a Warriors</h3>
+          <p>LeBron James brilló con 35 puntos.</p>
+        </article>
+        <article class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAqBHeTyTZ3BneJ0_37clOvzCoYwt77c4zQ&s" alt="Tenis">
+          <h3>Nadal en semifinales</h3>
+          <p>El rey de la tierra batida sigue imparable.</p>
+        </article>
+      </div>
+    </section>
+
+ 
+    <section class="seccion deportes">
+      <h2>🏆 Deportes</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://st5.depositphotos.com/6521104/77380/v/450/depositphotos_773809456-stock-illustration-soccer-template-design-football-banner.jpg" alt="Fútbol">
+          <h3>⚽ Fútbol</h3>
+          <p>Resultados y tablas de La Liga y Champions.</p>
+        </article>
+        <article class="card">
+          <img src="https://st.depositphotos.com/1269924/4038/i/450/depositphotos_40388609-stock-photo-basketball-basket-with-ball.jpg" alt="Baloncesto">
+          <h3>🏀 Baloncesto</h3>
+          <p>NBA, Euroliga y más competiciones.</p>
+        </article>
+        <article class="card">
+          <img src="https://www.atptour.com/-/media/images/news/2025/06/30/17/45/garin-wdon-2025-r1-sobrepique.jpg" alt="Tenis">
+          <h3>🎾 Tenis</h3>
+          <p>Roland Garros, Wimbledon y torneos ATP.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+ 
+  <aside>
+    <h2>📅 Próximos Eventos</h2>
+    <ul class="eventos">
+      <li>⚽ Champions League <span>20 de agosto</span></li>
+      <li>🏀 NBA Finals <span>25 de agosto</span></li>
+      <li>🎾 US Open <span>30 de agosto</span></li>
+    </ul>
+  </aside>
+
+ 
+  <footer>
+    <p>© 2025 Deporte en Acción | Todos los derechos reservados</p>
+  </footer>
+
+ 
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
